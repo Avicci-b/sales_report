@@ -7,7 +7,8 @@ Step 2: Create a file that will accept things that are not pushed to remore plac
 
 Step 3: Create a requirements.txt folder to store dependecies 
 
-    used command pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 step 4: Create folders using mkdir data api anlysis/results
 
@@ -21,7 +22,7 @@ Step 8: The JSON files are now produced in results/ that will tell us customer d
 
 Step 9: Created a server.py in api/ to serve the JSON files like I am just serving it to the web.It is static. For production, I'd likely replace static JSON loading with a database or cached service. 
 
-`bash
-uvicorn api.server:app --reload
+    ```bash
+    uvicorn api.server:app --reload
 
 Step 10: Clear ur code and make commits then push only necessarry files to GitHub.
